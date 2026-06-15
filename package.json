@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0",
+    "nodemon": "^3.1.14",
+    "otp-generator": "^4.0.1"
+  },
+  "name": "learning_institute",
+  "version": "1.0.0",
+  "description": "A comprehensive learning management system for tracking student progress and courses.  Centralized repository for managing academic curriculum, resources, and student enrollment.  An open-source platform designed to streamline the administration of online educational institutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skumar8595304933-cyber/Learning_institute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/skumar8595304933-cyber/Learning_institute/issues"
+  },
+  "homepage": "https://github.com/skumar8595304933-cyber/Learning_institute#readme"
+}
