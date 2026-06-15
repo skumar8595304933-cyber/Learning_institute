@@ -5,6 +5,10 @@ const port=process.env.PORT
 
 app.use(express.json());
 
+const dbcon=require('./config/database.js')
+dbcon();
+
+
 app.get('/',(req,res)=>{
     res.send("hello world")
 })
