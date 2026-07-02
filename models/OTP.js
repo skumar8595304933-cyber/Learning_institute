@@ -21,7 +21,9 @@ async function sendVerification(email, otp) {
     try {
         const mailResponse = await mailSender(
             email,
+
             "Verification Email from StudyNotion",
+            
             `<h1>Please confirm your OTP</h1>
              <p>Your OTP is <b>${otp}</b></p>`
         );
